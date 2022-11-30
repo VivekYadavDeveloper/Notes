@@ -30,16 +30,22 @@ class ShowNote extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: <Widget>[
-                Text(
-                  note.title,
-                  style: const TextStyle(
-                      fontSize: 28.0, fontWeight: FontWeight.bold),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    note.title,
+                    style: const TextStyle(
+                        fontSize: 28.0, fontWeight: FontWeight.bold),
+                  ),
                 ),
                 const SizedBox(height: 15.0),
-                Text(
-                  note.body,
-                  style: const TextStyle(
-                      fontSize: 20.0, fontWeight: FontWeight.bold),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    note.body,
+                    style: const TextStyle(
+                        fontSize: 20.0, fontWeight: FontWeight.bold),
+                  ),
                 )
               ],
             ),

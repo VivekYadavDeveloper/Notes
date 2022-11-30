@@ -23,8 +23,3 @@ class NoteModel {
     });
   }
 }
-
-///**! 28:04
-///TODO
-///https://www.youtube.com/watch?v=RGa4HJutK48
-//! Fix Error 9:40

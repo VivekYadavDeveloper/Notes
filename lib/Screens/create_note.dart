@@ -32,25 +32,37 @@ class _CreateNoteState extends State<CreateNote> {
         ),
         body: LayoutBuilder(
           builder: (context, constraints) {
-            return Column(
-              children: <Widget>[
-                TextField(
-                  controller: titleController,
-                  decoration: const InputDecoration(
-                    border: InputBorder.none,
-                    hintText: "Give Title",
+            return SingleChildScrollView(
+              child: Column(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.all(15.0),
+                    child: Card(
+                      child: TextField(
+                        controller: titleController,
+                        decoration: const InputDecoration(
+                          border: InputBorder.none,
+                          hintText: " Give Title",
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-                TextField(
-                  controller: bodyController,
-                  keyboardType: TextInputType.multiline,
-                  maxLines: null,
-                  decoration: const InputDecoration(
-                    border: InputBorder.none,
-                    hintText: "Enter Your Note",
+                  Padding(
+                    padding: const EdgeInsets.all(15.0),
+                    child: Card(
+                      child: TextField(
+                        controller: bodyController,
+                        keyboardType: TextInputType.multiline,
+                        maxLines: 15,
+                        decoration: const InputDecoration(
+                          border: InputBorder.none,
+                          hintText: " Enter Your Note",
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             );
           },
         ),

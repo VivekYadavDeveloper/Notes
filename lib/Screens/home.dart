@@ -82,8 +82,10 @@ class _HomeState extends State<Home> {
                                       ),
                                     );
                                   },
+                                  leading: Text(id.toString()),
                                   title: Text(title),
                                   subtitle: Text(body),
+                                  trailing: Text(creation_date),
                                 ),
                               );
                             },
