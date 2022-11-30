@@ -7,6 +7,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Screens/home.dart';
 
+//*** Create a Class of Share Preferences.
+//*** Create Static const Preferences Key.
+//**! @VivekYadavDev Github Account.
+//*** Now Create setTheme Boolean Function With Async to Set The Theme.
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
