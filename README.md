@@ -2,7 +2,7 @@
 
 Notes Application
 <div>
-<p>
+<li>
 <img src="https://user-images.githubusercontent.com/53872301/205995970-b9ea098e-62bd-48f5-828d-26371a635fd1.png" width="200"/>
 <br>
 <img src="https://user-images.githubusercontent.com/53872301/205996169-0f2aaf26-0087-4670-9853-2f096c2f4d57.png" width="200"/>
