@@ -29,6 +29,7 @@ class _HomeState extends State<Home> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          // backgroundColor: Color(0xFF554BF1),
           title: const Text("Your Notes"),
           actions: <IconButton>[
             IconButton(
@@ -106,10 +107,11 @@ class _HomeState extends State<Home> {
           },
         ),
         floatingActionButton: FloatingActionButton(
+          // backgroundColor: Color(0xFF554BF1),
           onPressed: () {
             Navigator.pushNamed(context, '/CreateNote');
           },
-          child: const Icon(Icons.note_add_rounded),
+          child: const Icon(Icons.add),
         ),
       ),
     );
